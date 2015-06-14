@@ -9,6 +9,7 @@ angular.module('swfobject', [])
       restrict: 'EAC',
       template: '<div id="{{id}}" ng-transclude></div>',
       transclude: true,
+      replace:true,
       scope: {
         params: '=swfParams',
         attrs: '=swfAttrs',
